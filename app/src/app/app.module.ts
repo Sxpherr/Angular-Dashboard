@@ -7,11 +7,15 @@ import { SideBarComponent } from './sidebar/sidebar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { ServerChartComponent } from './charts/serverChart/serverChart.component'
+import { DashboardHomeComponent } from './dashboard-home/dashboard-home.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    SideBarComponent
+    SideBarComponent,
+    ServerChartComponent,
+    DashboardHomeComponent
   ],
   imports: [
     BrowserModule,

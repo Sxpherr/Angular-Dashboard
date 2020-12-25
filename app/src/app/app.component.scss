@@ -4,3 +4,33 @@ h1 {
     top: 20px;
     font-size: 40px;
 }
+
+.chart1 {
+    background-color: white;
+    width: 500px;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    left: 50%;
+    top: 10%;
+    height: 250px;
+
+    canvas {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}
+
+.chart2 {
+    background-color: white;
+    width: 500px;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    left: 50%;
+    top: 50%;
+    height: 250px;
+
+    canvas {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}
