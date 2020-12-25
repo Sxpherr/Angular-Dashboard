@@ -1,0 +1,39 @@
+.sidebar {
+    width: 60px;
+    height: 100%;
+    background-color: #3e3e3e;
+    position: fixed;
+    left: 0;
+    top: 0;
+    align-items: center;
+
+    h1 {
+        color: white;
+    }
+
+    .btn1 button {
+        position: absolute;
+        left: 10px;
+        top: 15px;
+    }
+
+    .btn2 button {
+        position: absolute;
+        left: 10px;
+        top: 70px;
+    }
+
+    .btn3 button {
+        background-color: green;
+        position: absolute;
+        left: 10px;
+        top: 125px;
+    }
+
+    .logout a {
+        background-color: #FFCC00;
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+    }
+}
