@@ -9,13 +9,17 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { ServerChartComponent } from './charts/serverChart/serverChart.component'
 import { DashboardHomeComponent } from './dashboard-home/dashboard-home.component'
+import { BasicChartComponent } from './charts/basicChart/basicChart.component'
+import { hi } from './progressbar/progressbar.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     SideBarComponent,
     ServerChartComponent,
-    DashboardHomeComponent
+    DashboardHomeComponent,
+    BasicChartComponent,
+    hi
   ],
   imports: [
     BrowserModule,
